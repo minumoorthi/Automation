@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="main-suite" parallel="false">
+       <listeners>
+              <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+              <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+              <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+       </listeners>
+       <test name="googleBasicTest" verbose="1" annotations="JDK">
+              <classes>
+                     <class name="testng.web.Google"/>
+              </classes>
+       </test>
+</suite>
