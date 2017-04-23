@@ -5,3 +5,5 @@
 /lib/org/testng/reports/atu/maven-metadata-local.xml
 /ATU Reports
 /.idea
+/target/
+/bin/
