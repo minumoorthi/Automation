@@ -53,7 +53,7 @@ public class GoogleAllDriver  extends Tests {
 
         assertTrue(true);
     }
-
+   
     @DataProvider(name="deviceData",parallel=true)
     public Object[][] device(){
 
